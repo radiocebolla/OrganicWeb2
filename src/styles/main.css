@@ -377,6 +377,7 @@ h1, h2, h3, h4, h5, h6, ul {
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
+  padding-bottom: 46px;
 }
 .header-item {
   display: flex;
@@ -388,6 +389,7 @@ h1, h2, h3, h4, h5, h6, ul {
   color: #27300f;
   font-weight: 500;
   transition: 0.3s ease;
+  letter-spacing: 0.075rem;
 }
 .header__tel:hover {
   color: #d26a22;
@@ -397,7 +399,7 @@ h1, h2, h3, h4, h5, h6, ul {
   position: relative;
   width: 2.5rem;
   height: 2.5rem;
-  margin-left: 82px;
+  margin-left: 80px;
 }
 .header-cart__button {
   width: 2.5rem;
@@ -492,14 +494,28 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .main-text {
   flex: 0 0 40%;
+  padding-top: 190px;
 }
 .main-text__description {
   font-size: 1.12rem;
   line-height: 1.51;
   margin-top: 60px;
   margin-bottom: 77px;
+}
+.main-visual {
+  box-shadow: 0 0 0 22px transparent, 0 0 0 1px rgba(39, 48, 15, 0.4);
+  border-radius: 100%;
+  padding: 53px;
+}
+.main-visual__image {
+  border: 1px solid rgba(39, 48, 15, 0.4);
+  border-radius: 100%;
+  padding: 21px;
+}
+.main-visual__image img {
+  box-shadow: 20px 20px 52px -10px rgba(39, 48, 15, 0.4);
+  border-radius: 100%;
 }
