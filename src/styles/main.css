@@ -378,6 +378,8 @@ h1, h2, h3, h4, h5, h6, ul {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 46px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header-item {
   display: flex;
@@ -453,6 +455,7 @@ h1, h2, h3, h4, h5, h6, ul {
 body {
   font-family: "Jost", sans-serif;
   color: #27300f;
+  overflow-x: hidden;
 }
 
 .title {
@@ -482,6 +485,8 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section-main {
@@ -489,15 +494,31 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-bottom: 100px;
+  padding-bottom: 208px;
   position: relative;
 }
 .section-main__image {
   position: absolute;
 }
 .section-main__tomato {
-  right: -121px;
-  bottom: 15px;
+  right: 121px;
+  bottom: 140px;
+}
+.section-main__cucumber {
+  left: 30%;
+  top: 0;
+}
+.section-main__avocado {
+  right: -21px;
+  top: 46px;
+}
+.section-main__pepper {
+  left: 42px;
+  top: 40%;
+}
+.section-main__beans {
+  left: 0;
+  bottom: 175px;
 }
 
 .main {
@@ -581,4 +602,17 @@ body {
 .main-visual__03::before {
   right: 37px;
   bottom: 57px;
+}
+
+.section-stock {
+  background-image: url(../img/bg-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-stock__text {
+  font-size: 1.5rem;
+  max-width: 690px;
+  margin-top: 3.75rem;
+  line-height: 1.5;
 }
