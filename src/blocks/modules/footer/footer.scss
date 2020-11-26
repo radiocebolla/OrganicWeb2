@@ -2,15 +2,34 @@
     border-top: 1px solid #e2e3df;
     padding-top: 77px;
     padding-bottom: 60px;
+    @media (max-width:990px) {
+        display: flex;
+        text-align: start;
+    }
+    @media (max-width:320px) {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
     .logo {
         width: 179px;
         height: 48px;
+        @media (max-width:990px) {
+            margin: 0 auto 3rem;
+        }
+        @media (max-width:320px) {
+            width: 120px;
+            height: 32px;
+            margin-bottom: 1.6rem;
+        }
     }
 }
 
 .box-footer {
     display: flex;
     justify-content: space-between;
+    @media (max-width:990px) {
+        flex-direction: column;
+    }
     &-item {
         display: flex;
         justify-content: space-between;
@@ -18,14 +37,28 @@
         @media (max-width:1200px) {
         flex: 0 0 72%;
         }
+        @media (max-width:320px) {
+            display: block;
+        }
     }
 }
 
 .box-footer-list {
     list-style-type: none;
+    @media (max-width:990px) {
+        padding: 0px 15px;
+    }
+    @media (max-width:320px) {
+                display: flex;
+        justify-content: space-between;
+    }
     &__item {
         margin-bottom: 1.62rem;
         font-size: 1.12rem;
+        @media (max-width:320px) {
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
         &:hover {
             color: $orange;
         }
@@ -43,6 +76,29 @@
     &__tel {
         font-size: 1.68rem;
         margin-bottom: 2.06rem;
+        @media (max-width:320px) {
+            letter-spacing: -0.8px;
+            font-size: 1.875rem;
+        }
+    }
+}
+
+.address {
+    @media (max-width:320px) {
+        flex-direction: column;
+        text-align: center;
+        line-height: 0;
+        margin-top: 4px;
+        min-height: 79px;
+        margin-bottom: 25px;
+    }
+}
+
+.connect {
+    @media (max-width:320px) {
+        flex-direction: column;
+        text-align: center;
+        line-height: 0.1;
     }
 }
 
@@ -51,6 +107,9 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
+    @media (max-width:320px) {
+        margin: 19px 31px 0;
+    }
     &__link {
         width: 48px;
         height: 48px;
@@ -80,6 +139,12 @@
     display: flex;
     justify-content: space-between;
     margin-top: 42px;
+    @media (max-width:320px) {
+        display: block;
+        font-size: 0.625rem;
+        text-align: center;
+        margin-top: 29px;
+    }
     &__link {
         text-decoration: none;
         color: $gray;
@@ -91,6 +156,9 @@
     }
     &__copy {
         opacity: 0.6;
+        @media (max-width:320px) {
+            margin-bottom: 3px;
+        }
     }
     &__text {
         position: relative;
