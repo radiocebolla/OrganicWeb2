@@ -150,7 +150,9 @@
         color: $gray;
         opacity: 0.6;
         transition: 0.2s ease;
-        &:hover {
+        &:hover, &:focus, &:active {
+            color: $gray;
+            text-decoration: none;
             opacity: 1;
         }
     }

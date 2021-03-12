@@ -368,6 +368,7 @@ body {
             min-height: 240px;
             width: 210px;
             padding: 1rem 2.25rem;
+            text-align: left;
         }
         &:hover {
             box-shadow: 0 0 0 2px rgba($gray, $alpha);
@@ -413,7 +414,7 @@ body {
         bottom: 2.75rem;
         left: 2.25rem;
         max-width: 58%;
-        transform: translate(0, 241px);
+        transform: translate(0, 293px);
         transition: 0.3s ease;
         @media (max-width:1700px) {
             transform: translate(0, 280px);
@@ -431,6 +432,7 @@ body {
             margin-bottom: 26px;
             @media (max-width:320px) {
                 font-size: 0.875rem;
+                margin-bottom: 12px;
             }
         }
         &__description {
@@ -438,7 +440,8 @@ body {
             margin-bottom: 41px;
             line-height: 1.5;
             @media (max-width:320px) {
-                font-size: 0.75rem;
+                font-size: 0.63rem;
+                margin-bottom: 8px;
             }
         }
         &__link {
@@ -451,6 +454,9 @@ body {
             position: relative;
             padding: 50px;
             transition: 0.3s ease;
+            @media (max-width:320px) {
+                padding: 0 0 0 38px;
+            }
             &:hover {
                 opacity: 1;
                 padding: 45px;
@@ -580,10 +586,6 @@ body {
             height: 10px;
         }
     }
-}
-
-.slick-list {
-    max-height: 309px;
 }
 
 .section-advantage {
@@ -912,6 +914,7 @@ body {
         &:hover {
             color: $orange;
             border: 1px solid $orange;
+            text-decoration: none;
         }
     }
 }
@@ -1291,6 +1294,9 @@ body {
         line-height: 1.7;
         letter-spacing: 0.6px;
         font-weight: 500;
+        @media (max-width:1200px) {
+            margin-bottom: 3rem;
+        }
         @media (max-width:320px) {
             font-size: 0.75rem;
             font-weight: 500;
@@ -1317,7 +1323,7 @@ body {
         padding-left: 58px;
         margin-bottom: 20px;
         @media (max-width:1200px) {
-            margin: 0 8px;
+            margin: 0 28px;
             padding-left: 22px;
         }
         @media (max-width:320px) {
@@ -1337,7 +1343,7 @@ body {
             height: 25px;
             background-repeat: no-repeat;
             position: absolute;
-            left: 0;
+            left: -15px;
             top:calc(50% - 12.5px);
             @media (max-width:320px) {
                 left: -37px;
@@ -1358,8 +1364,8 @@ body {
             background-position: 0 center;
             content: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAYAAABsmQZ/AAABSklEQVRIie3WPS9EQRTG8d9uFqGi0qg0VDpCI1FtQSEKtQSRSGxDKMVnoCKyKoVGfApvHWKzXwJREM2SSQ7ZSJZd3M7T3My9zzn/zJkzMzd3tdzfhz2MIic7veIMiwXso4J5PGUI7cJ64iXoCOZwjmNs4uEPYd3YwkywbvNR0mdMoQdVLCD/S1g+8lQj72RwcoU60yU6MIYdLGEl1qFVpf7YDvA0TvGCXp9m0x7PZBiO5jrBwbu5CfWG/yTihyNfff6GJaxhF4N4jEZbRVsDf1t8r4R/MOJrjer+le5Rwnis+TWKn/zFeD8VvlLENVThG+i7bjCB2ShbNcqW1n8AazhqMlfLHXoUkHKMyzFuGqiFmdYrtf3hD+I+9Nu9+A/9h35A0z3XibuMWSl/4rymLXOBDQzFNZSVUv7EuUjQdHmnUyadOtn/OTD/Bia7QeC85BIFAAAAAElFTkSuQmCC);
             @media (max-width:1200px) {
-                margin-top: -6px;
-                margin-left: 12px;
+                margin-top: 3px;
+                margin-left: -3px;
             }
             @media (max-width:990px) {
                 margin-top: 4px;
@@ -1376,6 +1382,10 @@ body {
         color: $gray;
         font-size: 1.5rem;
         font-weight: 500;
+        &:hover, &:focus, &:active {
+            color: $gray;
+            text-decoration: none;
+        }
         @media (max-width:320px) {
             font-size: 0.75rem;
         }
@@ -1447,6 +1457,10 @@ body {
         color: $gray;
         border-bottom: 1px solid rgba($gray, 0.6);
         text-decoration: none;
+        &:hover, &:focus, &:active {
+            color: $gray;
+            text-decoration: none;
+        }
     }
     .btn {
         margin-top: 11px;

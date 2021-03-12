@@ -70,6 +70,9 @@
         }
         @media (max-width:320px) {
             margin-left: 12px;
+            &:hover, &:focus, &:active {
+                outline: none;
+            }
         }
     }
 }
@@ -107,6 +110,9 @@
         background-size: 1rem 0.87rem;
         background-repeat: no-repeat;
         background-position: center center;
+        &:active, &:focus {
+            outline: none;
+        }
         @media (max-width:990px) {
             background-color: transparent;
             border: 1px solid $gray;
