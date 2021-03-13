@@ -462,7 +462,7 @@ ul {
   display: block;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../../../img/logo.svg);
+  background-image: url(../img/logo.svg);
   width: 120px;
   height: 32px;
   margin-right: 120px;
@@ -1931,7 +1931,7 @@ body {
     height: 2.5rem;
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/tel.svg);
+    background-image: url(../img/tel.svg);
     border-radius: 100%;
     background-size: 1rem 0.87rem;
     background-repeat: no-repeat;
@@ -1955,7 +1955,7 @@ body {
   .header-cart__button {
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/cart-black.svg);
+    background-image: url(../img/cart-black.svg);
   }
 
   .header-cart__count {
