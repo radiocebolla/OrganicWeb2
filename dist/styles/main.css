@@ -562,17 +562,17 @@ ul {
 }
 
 .box-footer-social__vk {
-  background-image: url(../../../img/vk.svg);
+  background-image: url(../img/vk.svg);
   background-size: 23px 18px;
 }
 
 .box-footer-social__inst {
-  background-image: url(../../../img/instagram.svg);
+  background-image: url(../img/instagram.svg);
   background-size: 18px 18px;
 }
 
 .box-footer-social__fb {
-  background-image: url(../../../img/facebook.svg);
+  background-image: url(../img/facebook.svg);
   background-size: 23px 18px;
 }
 
@@ -1944,7 +1944,7 @@ body {
     height: 2.5rem;
     background-color: transparent;
     border: 1px solid #27300f;
-    background-image: url(../../../img/menu.svg);
+    background-image: url(../img/menu.svg);
     border-radius: 100%;
     background-size: 1rem 0.87rem;
     background-repeat: no-repeat;
